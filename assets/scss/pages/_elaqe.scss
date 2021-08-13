@@ -1,0 +1,166 @@
+.contact{
+    width: 100%;
+    height: 1000px;
+    margin-top: 60px;
+    
+
+    &__h2{
+        font-weight: 700;
+        color: $color-hover;
+        margin-bottom: 8px;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        
+
+    }
+    &__p{
+        color: $color-text;
+        text-align: center;
+        font-size: 18px;
+        
+        
+        
+    }
+    &__div{
+    
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+
+
+        &-1{
+            width: 540px;
+            height: 833px;
+            background-color: $color-primary;
+            border-radius: 10px;
+            margin-top: 30px;
+           
+            h4{
+                color: white;
+                font-size: 20px;
+                line-height: 32px;
+                
+                padding-top: 40px;
+                margin-left: 40px;
+                font-weight: 600
+    
+            }
+            &_icons{
+                width: 90%;
+                height: 60px;
+                margin-left: 6px;
+                margin-top: 30px;
+                padding-top: 16px;
+               i{
+                   font-size: 32px;
+                   margin-left: 30px;
+                   &:hover{
+                       color: $color-hover;
+                       cursor: pointer;
+                       transition: .6s;
+                   }
+               }
+            }
+
+            &__h2{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 32px;
+                color: $color-white;
+                margin-top: 35px;
+                margin-left: 42px;
+            }
+           
+           
+
+        }
+        &-2{
+            width: 540px;
+            height: 833px;
+            background-color: $color-primary;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-left: 0px;
+
+            &__h4{
+                color: white;
+                font-size: 20px;
+                line-height: 32px;
+                
+                padding-top: 70px;
+                margin-left: 40px;
+                font-weight: 600;
+            }
+            &__p{
+                color:silver;
+                font-size: 18px;
+                line-height: 32px;
+                
+                // padding-top: 70px;
+                margin-left: 40px;
+                font-weight: 300;
+            }
+
+            
+
+
+        }
+
+
+        
+    }
+
+}
+
+.unvan{
+    width: 95%;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+
+    &-1{
+
+        width: 80px;
+        height: 100%;
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 10px;
+        padding-top: 18px;
+        padding-left: 20px;
+        i{
+            color: #FFE249;
+        }
+    
+    }
+    &-2{
+        width:450px;
+        height: 100%;
+        margin-left: 30px;
+        h5{
+            font-weight: 700;
+            line-height: 28px;
+            color: #fff;
+            
+        }
+        p{
+            font-size: 14px !important;
+            line-height: 24px !important;
+            color: silver;
+            margin-top: -6px;
+            width: 85%;
+        }
+    }
+}
+
+.button12{
+    @include button;
+    margin-left: 309px;
+    margin-top: 49px;
+    &:hover{
+        background-color: rgba(201,255,199,0.8);
+        transition: .5s;
+    }
+}

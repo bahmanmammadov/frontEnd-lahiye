@@ -1,0 +1,106 @@
+.container{
+    .row{
+        .beforefooter{
+            display: flex;
+            margin-top: 50px;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            
+            .left-side{
+                background-color: red;
+                height: 850px;
+                color: white;
+                overflow: hidden;
+                background-color: #3B4046;
+            
+
+                .header-left{
+                    padding: 60px;
+                    h1{
+                        color: rgb(201,255,199);
+                        font-size: 42px;
+                        margin-top: 15p;
+                    }
+                    p{
+                        color: $color-text;
+                        margin-left: 18px;
+                        margin-top: 15px;
+                    }
+                }
+                a{
+                   display: inline-block;
+                   text-decoration: none;
+                   margin-left: 78px;
+                   margin-top: 40px;
+                   
+                   border: 1px solid rgb(98,102,107);
+                   padding: 15px;
+                   border-radius: 7px;
+                   padding-left: 50px;
+                   padding-right: 50px;
+                   color: rgb(201,255,199);
+                   &:hover{
+                       border-color:rgb(201,255,199) ;
+                       background-color: rgba(98,102,107,0.8);
+                       transition: 0.5s ease;
+                   }
+                }
+
+            }
+            .right-side{
+                background-color: green;
+                
+                overflow: hidden;
+                background-color: #3B4046;
+                height: 850px;
+                .right-side__top{
+                    display: flex;
+                    padding: 0px 58px 8px 58px;
+                    .photo-info{
+                        margin-left: 25px;
+                        margin-top: 45px;
+                        width: 350px;
+                        
+                        
+                        h5{
+                            color:rgb(201,255,199) ;
+                            color: white;
+                            
+                            &:hover{
+                                color:rgb(201,255,199) ;
+                                cursor: pointer;
+                            }
+
+
+                        }
+                        p{
+                            
+                            color:$color-text ;
+
+                        }
+                        a{
+                            text-decoration: none;
+                            color:rgb(201,255,199) ;
+                            
+                            
+                        }
+                    }
+                }
+                hr{
+                    width: 60%;
+                    
+                    color: white;
+                    margin-left: 280px;
+                    
+                   
+                    
+                }
+            
+
+
+    
+            }
+        }
+        
+    }
+}

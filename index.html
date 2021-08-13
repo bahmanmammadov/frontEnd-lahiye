@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- //karusel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="shortcut icon" href="https://img-premium.flaticon.com/png/512/625/625244.png?token=exp=1628873792~hmac=19c450e1f14bb488262502f9b0bfff0b" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/karusel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Aos link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Turkiyeden onlayin magazalar</title>
+</head>
+
+<body style="background-color: #22252C;">
+
+    <!-- header -->
+    <header>
+
+        <!-- navbar-top  -->
+
+        <div class="navbar">
+
+            <div class="container">
+                <div class="col-6" class="navbar__left">
+                    <a href="icaze.html" class="navbar__left__p " >Daşınmasına icazə yoxdur</a>
+                    <a href="" class="navbar__left__p1">Tez-tez verilən suallar</a>
+                </div>
+                <div style="margin-top: -10px; display: flex; justify-content: space-around;" class="col-6"
+                    class="navbar__rigth">
+                    <div class="navbar__rigth__currency-top" style="margin-top: 18px;">
+                        <span class="navbar__rigth__currency-top__citem-1">1 TRY - 0.20 AZN</span>
+                        <span class="navbar__rigth__currency-top__citem-2">1 USD - 1.70 AZN</span>
+                    </div>
+                    <div class="navbar__rigth__a" href="tel:9940775663161" style="margin-top: 18px;">
+
+                        <p class="fa fa-phone navbar__rigth__a__p"></p>
+                        <span class="navbar__rigth__a__span">+9940775663161</span>
+
+                    </div>
+                    <div class="navbar__rigth__select">
+                        <select name="cars" id="cars">
+                            <option style="display: none;" value="volvo">AZE</option>
+                            <option value="saab">ENG</option>
+                            <option value="opel">RUS</option>
+                        </select>
+                    </div>
+                    <button class="navbar__rigth__button" style="margin-top: 8px;">Qeydiyyat</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- navbar-bottom -->
+        <div class="container">
+            <nav>
+                <div class="navbar-bottom">
+                    <nav>
+                        <ul class="navbar-bottom__ul" style="display: flex; justify-content: space-between;">
+                            <li class="navbar-bottom__ul__li-1">
+                                <a href="./index.html">
+                                    <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
+                                </a>
+                            </li>
+                            <li style="margin-left:10px" class="navbar-bottom__ul__li">
+                                <a href="about.html">HAQQIMIZDA</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li">
+                                <a href="tarifler.html">Tarifler</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li">
+                                <a href="xidmetler.html">Xidmetler</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li">
+                                <a href="">Magazalar</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li">
+                                <a href="yenilik.html">Yenilikler</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li">
+                                <a href="elaqe.html">ƏLAQƏ</a>
+                            </li>
+                            <li class="navbar-bottom__ul__li-2" style="margin-left: 200px;">
+                                <i class="icon-user_two_tone"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+                                <a href="hesabim.html">
+                                    Hesabım
+                                    </a>
+                            </li>
+                            <li class="navbar-bottom__ul__li-3">
+                                <i class="icon-cart"><span class="path1"></span><span class="path2"></span><span
+                                        class="path3"></span><span class="path4"></span></i>
+                                <sup>
+                                    <p>
+                                        0
+                                    </p>
+                                </sup>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- <a href="./index.html">
+                    <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
+                    
+                </a> -->
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar2-respons" >
+                        <button class="navbar-toggler order-1" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="toggler-btn">
+                                <div class="bar bar1"></div>
+                                <div class="bar bar2"></div>
+                                <div class="bar bar3"></div>
+                            </div>
+                        </button>
+                        <i class="icon-cart d-md-none order-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main -->
+    <main>
+
+        <div class="container">
+            <div class="carousel" data-flickity='{ "wrapAround": true,"autoPlay": true 
+}'>
+                <div class="carousel-cell image-1">
+                    <h1>Amerikadan sifaris et,<br> biz getirek!</h1>
+                    <p>Türkiyənin bütün onlayn mağazalarından Azərbaycanın bütün <br> bölgələrinə çatdırılma</p>7
+                    <button>Etrafli</button>
+                </div>
+                <div class="carousel-cell image-2 ">
+                    <h1>Diqqət !!! Türkiyə <br> Ünvanımız Dəyişdi</h1>
+                    <p>Xidmət səviyyəsinin yüksəldilməsi məqsədiylə Velocity Türkiyə anbarı <br> dəyişdirildi</p>7
+                    <button>Etrafli</button>
+                </div>
+                <div class="carousel-cell image-3">
+                    <h1>Velocity.az ilə Rahat və <br> təhlükəsiz çatdırılma</h1>
+                    <p>Velocity.az fəaliyyətə başladı</p>7
+                    <button>Etrafli</button>
+                </div>
+                <div class="carousel-cell image-4">
+                    <h1>Türkiyədən Azərbaycana <br> çatdırılma</h1>
+                    <p>Türkiyənin bütün onlayn mağazalarından Azərbaycanın bütün <br> bölgələrinə çatdırılma</p>7
+                    <button>Etrafli</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- section -->
+
+    <section>
+        <div class="container">
+            <div class="Kalkulyator">
+
+                <div class="Kalkulyator__headpart">
+                    <h2 class="Kalkulyator__headpart__h2">Kalkulyator</h2>
+                <p class="Kalkulyator__headpart__p">Bağlamanın hər hansı bir tərəfinin ölçüsü 1m və daha çox olarsa, bağlamanın
+                    həm həcm, həm də fiziki çəkisi hesablanır. Hansı çəki yüksək olarsa, daşınma haqqı ona əsasən
+                    hesablanır.</p>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="calc-left-side">
+                            <div class="package-weight" style="margin-left: -35px;">
+                                <h5 style="margin-left: -120px; font-size: 16px;">Ölkə Seçin</h5>
+                                <button> <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24 0H6C2.68629 0 0 2.68629 0 6V24C0 27.3137 2.68629 30 6 30H24C27.3137 30 30 27.3137 30 24V6C30 2.68629 27.3137 0 24 0Z"
+                                            fill="#E30A17" />
+                                        <path
+                                            d="M12.5 22C16.366 22 19.5 18.866 19.5 15C19.5 11.134 16.366 8 12.5 8C8.63401 8 5.5 11.134 5.5 15C5.5 18.866 8.63401 22 12.5 22Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15 21C18.0376 21 20.5 18.3137 20.5 15C20.5 11.6863 18.0376 9 15 9C11.9624 9 9.5 11.6863 9.5 15C9.5 18.3137 11.9624 21 15 21Z"
+                                            fill="#E30A17" />
+                                        <path d="M18.5 15L24.5 16.8543L20.7908 12V18L24.5 13.1457L18.5 15Z"
+                                            fill="white" />
+                                    </svg>
+                                    Türkiyə</button>
+                                <button><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0)">
+                                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-1" y="0"
+                                                width="31" height="30">
+                                                <path
+                                                    d="M23.9873 0H5.9873C2.6736 0 -0.0126953 2.68629 -0.0126953 6V24C-0.0126953 27.3137 2.6736 30 5.9873 30H23.9873C27.301 30 29.9873 27.3137 29.9873 24V6C29.9873 2.68629 27.301 0 23.9873 0Z"
+                                                    fill="#B22234" />
+                                            </mask>
+                                            <g mask="url(#mask0)">
+                                                <path
+                                                    d="M23.9873 0H5.9873C2.6736 0 -0.0126953 2.68629 -0.0126953 6V24C-0.0126953 27.3137 2.6736 30 5.9873 30H23.9873C27.301 30 29.9873 27.3137 29.9873 24V6C29.9873 2.68629 27.301 0 23.9873 0Z"
+                                                    fill="#B22234" />
+                                                <path
+                                                    d="M-0.0126953 3.46118H49.9873H-0.0126953ZM49.9873 8.07785H-0.0126953H49.9873ZM-0.0126953 12.6917H49.9873H-0.0126953ZM49.9873 17.3084H-0.0126953H49.9873ZM-0.0126953 21.9223H49.9873H-0.0126953ZM49.9873 26.539H-0.0126953H49.9873Z"
+                                                    fill="black" />
+                                                <path
+                                                    d="M49.9873 27.6917H-0.0126953V25.3834H49.9873V27.6917ZM49.9873 23.0778H-0.0126953V20.7695H49.9873V23.0778ZM49.9873 18.4611H-0.0126953V16.1528H49.9873V18.4611ZM49.9873 13.8472H-0.0126953V11.5389H49.9873V13.8472ZM49.9873 9.23057H-0.0126953V6.92224H49.9873V9.23057ZM49.9873 4.61668H-0.0126953V2.30835H49.9873V4.61668Z"
+                                                    fill="white" />
+                                                <path d="M22.7873 0H-0.0126953V16.1528H22.7873V0Z" fill="#3C3B6E" />
+                                                <path
+                                                    d="M1.89066 0.69165L2.4351 2.3611L1.00732 1.33054H2.7601L1.34344 2.36387L1.89066 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M1.88983 3.92236L2.43428 5.59181L1.00928 4.55847H2.76205L1.33983 5.59181L1.88983 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M1.89047 7.15259L2.43492 8.82203L1.0127 7.7887H2.76547L1.34325 8.82203L1.89047 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M1.89047 10.3833L2.43492 12.0555L1.0127 11.0222H2.76547L1.34325 12.0555L1.89047 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M1.89047 13.6167L2.43492 15.2861L1.0127 14.2528H2.76547L1.34325 15.2861L1.89047 13.6167Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M3.78467 2.30835L4.32911 3.97779L2.90967 2.94446H4.66245L3.24578 3.97779L3.78467 2.30835Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M3.785 5.53882L4.32945 7.20826L2.90723 6.17493H4.66L3.23778 7.20826L3.785 5.53882Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M3.785 8.76953L4.32945 10.439L2.90723 9.40564H4.66L3.23778 10.439L3.785 8.76953Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M3.785 12L4.32945 13.6694L2.90723 12.6361H4.66L3.23778 13.6694L3.785 12Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M5.68735 0.69165L6.23179 2.36109L4.80957 1.32776H6.56235L5.14013 2.36109L5.68735 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M5.68735 3.92236L6.23179 5.59181L4.80957 4.55847H6.56235L5.14013 5.59181L5.68735 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M5.68735 7.15259L6.23179 8.82203L4.80957 7.7887H6.56235L5.14013 8.82203L5.68735 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M5.68735 10.3833L6.23179 12.0527L4.80957 11.0194H6.56235L5.1429 12.0555L5.68735 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M5.68735 13.6167L6.23179 15.2861L4.80957 14.2528H6.56235L5.14013 15.2861L5.68735 13.6167Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M7.58969 2.30835L8.13414 3.97779L6.71191 2.94446H8.46469L7.04247 3.97779L7.58969 2.30835Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M7.58969 5.53882L8.13414 7.20826L6.71191 6.17493H8.46469L7.04247 7.20826L7.58969 5.53882Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M7.58969 8.76953L8.13414 10.439L6.71191 9.40564H8.46469L7.04247 10.439L7.58969 8.76953Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M7.58969 12L8.13414 13.6694L6.71191 12.6361H8.46469L7.04247 13.6694L7.58969 12Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M9.48471 0.69165L10.0292 2.36109L8.60693 1.32776H10.3597L8.93749 2.36109L9.48471 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M9.48471 3.92236L10.0292 5.59181L8.60693 4.55847H10.3597L8.93749 5.59181L9.48471 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M9.48471 7.15259L10.0292 8.82203L8.60693 7.7887H10.3597L8.93749 8.82203L9.48471 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M9.48471 10.3833L10.0292 12.0527L8.60693 11.0194H10.3597L8.94027 12.0555L9.48471 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M9.48471 13.6167L10.0292 15.2861L8.60693 14.2528H10.3597L8.93749 15.2861L9.48471 13.6167Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M11.3871 2.30835L11.9315 3.97779L10.5093 2.94446H12.2648L10.8426 3.97779L11.3871 2.30835Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M11.3871 5.53882L11.9315 7.20826L10.5093 6.17493H12.2648L10.8426 7.20826L11.3871 5.53882Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M11.3871 8.76953L11.9315 10.439L10.5093 9.40564H12.2648L10.8426 10.439L11.3871 8.76953Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M11.3871 12L11.9315 13.6694L10.5093 12.6361H12.2648L10.8426 13.6694L11.3871 12Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M13.2894 0.69165L13.8338 2.36109L12.4116 1.32776H14.1644L12.7422 2.36109L13.2894 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M13.2894 3.92236L13.8338 5.59181L12.4116 4.55847H14.1644L12.7422 5.59181L13.2894 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M13.2894 7.15259L13.8338 8.82203L12.4116 7.7887H14.1644L12.7422 8.82203L13.2894 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M13.2894 10.3833L13.8338 12.0527L12.4116 11.0194H14.1644L12.7422 12.0555L13.2894 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M13.2894 13.6167L13.8338 15.2861L12.4116 14.2528H14.1644L12.7422 15.2861L13.2894 13.6167Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M15.1846 2.30835L15.729 3.97779L14.3096 2.94446H16.0624L14.6401 3.97779L15.1846 2.30835Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M15.1844 5.53882L15.7289 7.20826L14.3066 6.17493H16.0594L14.6372 7.20826L15.1844 5.53882Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M15.1844 8.76953L15.7289 10.439L14.3066 9.40564H16.0594L14.6372 10.439L15.1844 8.76953Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M15.1844 12L15.7289 13.6694L14.3066 12.6361H16.0594L14.6372 13.6694L15.1844 12Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.0877 0.69165L17.6322 2.3611L16.21 1.33054H17.9627L16.5433 2.36387L17.0877 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.0877 3.92236L17.6322 5.59181L16.21 4.56125H17.9627L16.5433 5.59459L17.0877 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.0877 7.15259L17.6322 8.82203L16.21 7.79148H17.9627L16.5433 8.82481L17.0877 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.0877 10.3833L17.6322 12.0527L16.21 11.0222H17.9627L16.5433 12.0555L17.0877 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M17.0877 13.6167L17.6322 15.2861L16.21 14.2528H17.9627L16.5433 15.2861L17.0877 13.6167Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M18.9901 2.30835L19.5345 3.97779L18.1123 2.94446H19.8651L18.4429 3.97779L18.9901 2.30835Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M18.9901 5.53882L19.5345 7.20826L18.1123 6.17493H19.8651L18.4429 7.20826L18.9901 5.53882Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M18.9901 8.76953L19.5345 10.439L18.1123 9.40564H19.8651L18.4429 10.439L18.9901 8.76953Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M18.9901 12L19.5345 13.6694L18.1123 12.6361H19.8651L18.4429 13.6694L18.9901 12Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.8843 0.69165L21.4315 2.36387L20.0093 1.33054H21.7621L20.3398 2.36387L20.8843 0.69165Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.8851 3.92236L21.4295 5.59181L20.0073 4.55847H21.7601L20.3379 5.59181L20.8851 3.92236Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.8851 7.15259L21.4295 8.82203L20.0073 7.7887H21.7601L20.3379 8.82203L20.8851 7.15259Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.8843 10.3833L21.4315 12.0555L20.0093 11.0222H21.7621L20.3398 12.0555L20.8843 10.3833Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.8851 13.6167L21.4295 15.2861L20.0073 14.2528H21.7601L20.3379 15.2861L20.8851 13.6167Z"
+                                                    fill="white" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0">
+                                                <rect width="30" height="30" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span>ABŞ</span></button>
+
+                            </div>
+
+                            <div class="calc-left-side__calc-part"
+                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
+
+                                <div class="range-article">
+
+                                    <p class="pepe" style="margin-left: -400px;">En</p>
+                                    <input type="text" id="textInput" value="50" class="inpuut">
+                                </div>
+
+                                <select class="form ">
+                                    <option value="sm">sm</option>
+                                    <option value="m">m</option>
+                                </select>
+                                <input type="range" name="rangeInput" value="50" min="0" max="100"
+                                    oninput="updateTextInput(this.value);" class="inpout">
+
+                            </div>
+                            <div class="calc-left-side__calc-part"
+                                style="border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
+
+                                <div class="range-article">
+
+                                    <p class="pepe" style="margin-left: -330px;">Hündürlük</p>
+                                    <input type="text" id="textInput2" value="50" class="inpuut">
+                                </div>
+
+                                <select class="form ">
+                                    <option value="sm">sm</option>
+                                    <option value="m">m</option>
+                                </select>
+                                <input type="range" name="rangeInput" value="50" min="0" max="100"
+                                    oninput="updateTextInput1(this.value);" class="inpout">
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="calc-right-side">
+                            <div class="has6">
+                                <h6 class="hhh6">Bağlamanın Növü</h6>
+                            </div>
+                            <div class="baglama-nov">
+                                <button class="btn100"><span class="span5">Adi məhsul</span></button>
+                                <button class="btn100"><span class="span5">Maye və Kosmetika</span></button>
+                            </div>
+                            <div class="calc-left-side__calc-part"
+                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
+
+                                <div class="range-article">
+
+                                    <p class="pepe">Uzunluq</p>
+                                    <input type="text" id="textInput3" value="50" class="inpuut">
+                                </div>
+
+                                <select class="form ">
+                                    <option value="sm">sm</option>
+                                    <option value="m">m</option>
+                                </select>
+                                <input type="range" name="rangeInput" value="50" min="0" max="100"
+                                    oninput="updateTextInput2(this.value);" class="inpout">
+
+                            </div>
+                            <div class="calc-left-side__calc-part"
+                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
+
+                                <div class="range-article">
+
+                                    <p class="pepe" style="margin-right: -80px;">Bağlamanın çəkisi</p>
+                                    <input type="text" id="textInput4" value="50" class="inpuut">
+                                </div>
+
+                                <select class="form ">
+                                    <option value="sm">sm</option>
+                                    <option value="m">m</option>
+                                </select>
+                                <input type="range" name="rangeInput" value="50" min="0" max="100"
+                                    oninput="updateTextInput3(this.value);" class="inpout">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <h6 style="display: block; float: left; margin-left: 25px; color:rgba(255, 255, 255, 0.7);;">
+                            Əlavə xidmətlər</h6>
+                        <div class="service-list" style="margin-left: -52px;">
+                            <div class="form-check service-list-item signup-form-check" style="margin-top: 30px;">
+                                <input id="service-13" data-price="2" type="checkbox"
+                                    class="form-check-input service-item" style="height: 24px;
+                                     width: 24px;">
+                                <label for="service-13" class="form">Baglamanın yoxlanması (2 USD)</label>
+                            </div>
+                            <div class="form-check service-list-item signup-form-check" style="margin-top: 15px;">
+                                <input id="service-13" data-price="2" type="checkbox"
+                                    class="form-check-input service-item" style="height: 24px;
+                                     width: 24px;">
+                                <label for="service-13" class="form">
+                                    İadə Xidməti (4 USD)</label>
+                            </div>
+                            <div class="form-check service-list-item signup-form-check" style="margin-top: 15px;">
+                                <input id="service-13" data-price="2" type="checkbox"
+                                    class="form-check-input service-item" style="height: 24px;
+                                     width: 24px;">
+                                <label for="service-13" class="form">Baglamanın yoxlanması - Sifaris et xidməti vasitəsi ilə (1 USD)
+                                    $0.00
+                                    </label>
+                            </div>
+                        
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="hesabat">
+                            <button class="btn2">Hesabla</button>
+                            <div class="money">
+                                <h3 class="hh3">139,00$</h3>
+                                <p>231m</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 -->
+
+    <section>
+        <div class="container">
+            <h1 style="margin-top: 70px;">Necə işləyirik?</h1>
+            <div class="how-to-use" style="display: flex; flex-wrap: wrap;">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="left-side">
+                        <div class="font-how-to">
+                            <i class="icon-credit-card_two_tone icon-lg icon-outline"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span></i>
+                        </div>
+                        <h4>Ödəmə et</h4>
+                        <div class="box-text">Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində nəğd ödəniş
+                        </div>
+                        <button class="btn-etrafli ">Etrafli</button>
+    
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="left-side">
+                        <div class="font-how-to">
+                            <i class="icon-credit-card_two_tone icon-lg icon-outline"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span></i>
+                        </div>
+                        <h4>Ödəmə et</h4>
+                        <div class="box-text">Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində nəğd ödəniş
+                        </div>
+                        <button class="btn-etrafli ">Etrafli</button>
+    
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="left-side">
+                        <div class="font-how-to">
+                            <i class="icon-credit-card_two_tone icon-lg icon-outline"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span></i>
+                        </div>
+                        <h4>Ödəmə et</h4>
+                        <div class="box-text">Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində nəğd ödəniş
+                        </div>
+                        <button class="btn-etrafli ">Etrafli</button>
+    
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tarifler -->
+
+    <section>
+
+        <div class="container">
+            <div class="Tariffs">
+                <h2 class="Tariffs__h2">Tariffs</h2>
+
+          
+                <div style="width: 10%; margin-left: 65.5%" class="tab_menu" id="tab_menu">
+
+                    <div style="border-radius: 10px;" class="menu  tab_menus">
+                        <div style="display: flex;" id="btn1" class="active" data-index="1">
+                            <img style="margin-left: -31px;"
+                                src="https://velocity.az/frontend/web/uploads//images/country/Turkey.svg" alt="">
+                            <p style="margin-left: 10px; margin-top: 14px;">Turkiye</p>
+
+                        </div>
+                        <div style="display: flex;" id="btn2" data-index="1">
+                            <img style="margin-left: -31px;"
+                                src="https://velocity.az/frontend/web/uploads//images/country/US.svg" alt="">
+                            <p style="margin-left: 10px; margin-top: 14px;">ABS</p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="Tariffs__info">
+                    <div class="Tariffs__info-1">
+                        <p
+                            style="margin-top: 20px;margin-left: 20px; width: 70px;height: 70px;background-color: #22252C;border-radius: 7px;padding-left: 17px;padding-top: 15px;">
+                            <i class="icon-Package-v2_two_tone icon-lg icon-bg"><span class="path1"></span><span
+                                    class="path2"></span></i>
+                        </p>
+
+                        <p class="Tariffs__info-1__p">0.001 kg to 0.100 kg qeder</p>
+                    </div>
+                    <div class="Tariffs__info-2">
+                        <p class="Tariffs__info-2__p">Adi mehsul</p>
+                        <p id="deyiw" class="Tariffs__info-2__p1">1</p>
+                        <p class="Tariffs__info-2__p2">USD</p>
+
+                    </div>
+                    <div class="Tariffs__info-3">
+                        <p class="Tariffs__info-3__p">Maye ve Kosmetika</p>
+                        <p id="deyiw1" class="Tariffs__info-3__p1">1</p>
+                        <p class="Tariffs__info-3__p2">USD</p>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="Tariffs__info">
+                    <div class="Tariffs__info-1">
+                        <p
+                            style="margin-top: 20px;margin-left: 20px; width: 70px;height: 70px;background-color: #22252C;border-radius: 7px;padding-left: 17px;padding-top: 15px;">
+                            <i class="icon-Package-v2_two_tone icon-lg icon-bg"><span class="path1"></span><span
+                                    class="path2"></span></i>
+                        </p>
+
+                        <p class="Tariffs__info-1__p">0.001 kg to 0.100 kg qeder</p>
+                    </div>
+                    <div class="Tariffs__info-2">
+                        <p class="Tariffs__info-2__p">Adi mehsul</p>
+                        <p id="deyiw2" class="Tariffs__info-2__p1">2</p>
+                        <p class="Tariffs__info-2__p2">USD</p>
+
+                    </div>
+                    <div class="Tariffs__info-3">
+                        <p class="Tariffs__info-3__p">Maye ve Kosmetika</p>
+                        <p id="deyiw3" class="Tariffs__info-3__p1">2</p>
+                        <p class="Tariffs__info-3__p2">USD</p>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="Tariffs__info">
+                    <div class="Tariffs__info-1">
+                        <p
+                            style="margin-top: 20px;margin-left: 20px; width: 70px;height: 70px;background-color: #22252C;border-radius: 7px;padding-left: 17px;padding-top: 15px;">
+                            <i class="icon-Package-v2_two_tone icon-lg icon-bg"><span class="path1"></span><span
+                                    class="path2"></span></i>
+                        </p>
+
+                        <p class="Tariffs__info-1__p">0.001 kg to 0.100 kg qeder</p>
+                    </div>
+                    <div class="Tariffs__info-2">
+                        <p class="Tariffs__info-2__p">Adi mehsul</p>
+                        <p id="deyiw4" class="Tariffs__info-2__p1">3</p>
+                        <p class="Tariffs__info-2__p2">USD</p>
+
+                    </div>
+                    <div class="Tariffs__info-3">
+                        <p class="Tariffs__info-3__p">Maye ve Kosmetika</p>
+                        <p id="deyiw5" class="Tariffs__info-3__p1">3</p>
+                        <p class="Tariffs__info-3__p2">USD</p>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="Tariffs__info">
+                    <div class="Tariffs__info-1">
+                        <p
+                            style="margin-top: 20px;margin-left: 20px; width: 70px;height: 70px;background-color: #22252C;border-radius: 7px;padding-left: 17px;padding-top: 15px;">
+                            <i class="icon-Package-v2_two_tone icon-lg icon-bg"><span class="path1"></span><span
+                                    class="path2"></span></i>
+                        </p>
+
+                        <p class="Tariffs__info-1__p">0.001 kg to 0.100 kg qeder</p>
+                    </div>
+                    <div class="Tariffs__info-2">
+                        <p class="Tariffs__info-2__p">Adi mehsul</p>
+                        <p id="deyiw6" class="Tariffs__info-2__p1">4</p>
+                        <p class="Tariffs__info-2__p2">USD</p>
+                        <p id="none1" class="Tariffs__info-2__p3"></p>
+
+
+                    </div>
+                    <div class="Tariffs__info-3">
+                        <p class="Tariffs__info-3__p">Maye ve Kosmetika</p>
+                        <p id="deyiw7" class="Tariffs__info-3__p1">4</p>
+                        <p class="Tariffs__info-3__p2">USD</p>
+                        <p id="none" class="Tariffs__info-3__p3"></p>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="Tariffs__info">
+                    <div class="Tariffs__info-1">
+                        <p
+                            style="margin-top: 20px;margin-left: 20px; width: 70px;height: 70px;background-color: #22252C;border-radius: 7px;padding-left: 17px;padding-top: 15px;">
+                            <i class="icon-Package-v2_two_tone icon-lg icon-bg"><span class="path1"></span><span
+                                    class="path2"></span></i>
+                        </p>
+
+                        <p class="Tariffs__info-1__p">0.001 kg to 0.100 kg qeder</p>
+                    </div>
+                    <div class="Tariffs__info-2">
+                        <p class="Tariffs__info-2__p">Adi mehsul</p>
+                        <p id="deyiw8" class="Tariffs__info-2__p1">5</p>
+                        <p class="Tariffs__info-2__p2">USD</p>
+                        <p id="none2" class="Tariffs__info-2__p3"></p>
+
+
+                    </div>
+                    <div class="Tariffs__info-3">
+                        <p class="Tariffs__info-3__p">Maye ve Kosmetika</p>
+                        <p id="deyiw9" class="Tariffs__info-3__p1">5</p>
+                        <p class="Tariffs__info-3__p2">USD</p>
+                        <p id="none3" class="Tariffs__info-3__p3"></p>
+
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- store -->
+
+    <!-- <section>
+        <div class="store">
+            <h2 class="store__h2">Mağazalar</h2>
+            <button class="store__button">Hamsina bax</button>
+        </div>
+    </section>  -->
+
+    <!-- karusel -->
+    <!-- <section class="karusel-one">
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img style="background-size: cover;"
+                        src="https://velocity.az/frontend/web/uploads//images/store/store-3.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-4.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-5.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-9.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-7.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-8.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-9.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-6.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://velocity.az/frontend/web/uploads//images/store/store-10.png" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>  -->
+
+    
+    <div #swiperRef="" class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-1.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-2.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-3.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-4.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-5.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-6.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+          <div style="background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-7.png);background-size: contain;background-repeat: no-repeat;background-position: center;" class="swiper-slide"></div>
+        </div>
+        
+      </div>
+  
+     
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="beforefooter">
+                    <div class="left-side col-lg-4 col-sm-12">
+                        <div class="header-left">
+                            <h1>
+                                Nə yenilik var?
+                            </h1>
+                            <p>Ən son yeniliklər və xəbərlərlə tanış olun</p>
+
+                        </div>
+                        <a href="">Hamısına bax</a>
+
+                    </div>
+                    <div class="right-side col-lg-8 col-sm-12">
+                        <div class="right-side__top" style="padding-top: 60px;">
+                            <div class="photo">
+                                <img src="https://velocity.az/frontend/web/uploads//images/slider/unnamed-1dnsda.jpg"
+                                    alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h5>Türkiyədən Azərbaycana Kosmetika Sifarişi</h5>
+                                <p>05.08.2021</p>
+                                <a href="">Tamamını oxu</a>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="right-side__top">
+                            <div class="photo">
+                                <img src="https://velocity.az/frontend/web/uploads//images/slider/saytkicikoolcuuu.jpg"
+                                    alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h5>Türkiyədən Azərbaycana Kosmetika Sifarişi</h5>
+                                <p>05.08.2021</p>
+                                <a href="">Tamamını oxu</a>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="right-side__top">
+                            <div class="photo">
+                                <img src="https://velocity.az/frontend/web/uploads//images/slider/kicik.jpg" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h5>Türkiyədən Azərbaycana Kosmetika Sifarişi</h5>
+                                <p>05.08.2021</p>
+                                <a href="">Tamamını oxu</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer" style="margin-top: 60px;">
+        <div class="container">
+            <div class="row">
+                <div class="foot" style="display: flex; flex-wrap: wrap">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="heading">
+                            <h1 class="heading__title">Kömək lazımdır?</h1>
+                        </div>
+                        <ul class="footer__contact">
+                            <li>
+                                <i style="margin-left: -40px;" class="icon-map-marker_two_tone icon-lg icons"><span
+                                        class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                                <a href="#"><span>Bakı şəh.,AZ1072, Nərimanov rayonu Koroğlu Rəhimov küçəsi Gəncə şəhəri
+                                        Həsən Əliyev
+                                        pr.75</span></a>
+                            </li>
+                            <li>
+                                <i style="margin-left: -40px;" class="icon-email_two_tone icon-lg icons"><span
+                                        class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+    
+                                <a href="#">info@velocity.az</a>
+    
+                            </li>
+                            <li>
+                                <i style="margin-left: -40px;" class="icon-phone_two_tone icon-lg icons"><span
+                                        class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                                <a href="#">+994123108707</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <ul style="margin-left:20px;margin-top: 30px;" class="footer__nav">
+                            <li>
+                                <a href="#">Daşınmasına icazə yoxdur</a>
+                            </li>
+                            <li>
+                                <a href="#">Tez-tez verilən suallar</a>
+                            </li>
+                            <li>
+                                <a href="#">Gizlilik siyasəti</a>
+                            </li>
+                            <li>
+                                <a href="#">İstifadəçi razılaşması</a>
+                            </li>
+                            <li>
+                                <a href="#">Sifariş et qaydaları</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <img style="margin-left: 110px;" src="https://velocity.az/front/img/logo/logo-white.svg" alt="">
+                <p style="color: rgba(255,255,255,0.7); margin-left: 110px; margin-top: 20px;" class="copyright">©️ 2021
+                    Velocity LTD. Bütün hüquqlar qorunur</p>
+            </div>
+            <div class="social-icons d-none d-md-block">
+                <a href="https://www.facebook.com/" target="blank" class="social-icons_link"><i
+                        class="icon-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="blank" class="social-icons_link"><i
+                        class="icon-instagram"></i></a>
+                <a style="margin-right: 150px;" href="https://www.youtube.com/" target="blank"
+                    class="social-icons_link"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- karusel -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- o biri karusel ucundurk -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- karuselin js -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- Aos link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <script src="./assets/js/index.js"></script>
+    
+
+     
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+          
+        <div class="swiper-slide"></div>
+          
+            <div class="swiper-slide"></div>
+         
+        <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+          
+    
+</body>
+
+</html>

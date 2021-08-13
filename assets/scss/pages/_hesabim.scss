@@ -1,0 +1,191 @@
+.hesabim{
+    width: 100%;
+    height: 650px;
+    background-color: #3B4046;
+    display: flex;
+
+    .hesabim__left{
+        width: 497px;
+        height: 92%;
+        background-image: url(https://velocity.az/front/img/vector/Vector-lighten.svg);
+        background-color:#C9FFC7 !important ;
+        margin-left: 25px;
+        margin-top: 25px;
+        border-radius: 10px;
+        .hesabim_left_h2{
+            color: #181C1F;
+            font-size: 40px;
+            font-weight: 700;
+            margin-top: 170px;
+            margin-left: 70px;
+        }
+        .hesabim_left_button{
+             @include button-big;
+            border:2px solid #181C1F;
+            color: black;
+            width: 320px;
+            margin-left: 70px;
+            margin-top: 50px;
+            font-weight: 500;
+            
+            
+        }
+    }
+    .hesabim__rigth{
+        width: 540px;
+        height: 92%;
+        // border: 2px solid white;
+        margin-left: 25px;
+        margin-top: 25px;
+        border-radius: 10px;
+        .hesabim_rigth_h2{
+            color: $color-hover;
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .hesabim_rigth_p{
+            font-size: 16px;
+            line-height: 28px;
+            font-size: 16px;
+            color: $color-text;
+            text-align: center;
+        }
+       .hesabim_rigth__input{
+            width: 24px;
+            height: 24px;
+            margin-left: 70px;
+            background-color: transparent;
+
+
+        }
+        .hesabim_rigth_button{
+            width: 404px;
+            height: 50px;
+            background-color: $color-hover;
+            margin-left: 76px;
+            margin-top: 40px;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 12px;
+            font-size: 17px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(201,255,199,0.8);
+                transition: .7s;
+            }
+        }
+        .hesabim_rigth_icon{
+            width: 404px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 76px;
+            &:hover{
+                span{
+                    color: $color-white;
+                    transition: .8s;
+                }
+            }
+
+            
+
+
+        }
+
+
+    }
+}
+
+.wrapper{
+    width: 510px;
+    // background: #fff;
+    padding: 50px;
+    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.wrapper .input-data{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: $color-body;
+    border-radius: 10px;
+
+
+
+}
+
+.wrapper .input-data input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    background-color: $color-body;
+    padding-left: 10px;
+    color: $color-white;
+
+
+}
+
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform:translateY(-20px);
+    font-size: 16px;
+}
+.wrapper .input-data label{
+    position: absolute;
+    left: 0;
+    bottom: 17px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    padding-left: 10px;
+    }
+
+
+.form-check {
+        display: flex;
+        align-items: flex-end;
+        height: 24px;
+        margin-left: 75px;
+
+       
+    }
+.form-check .form-check-input {
+        height: 24px;
+        width: 24px;
+        margin-right: 8px;
+        border: 2px solid rgba(255,255,255,0.2);
+        background-color: transparent;
+        position: relative;
+        outline: none;
+
+    }
+   
+     .form-check .form-check-input:checked[type=checkbox] {
+        background-color: black !important;
+        color: #181C1F;
+        // outline: none;
+
+    }
+    .form-check-label{
+        color: $color-white;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+   
+
+    .forgot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #C9FFC7;
+        font-size: 18px;
+    }

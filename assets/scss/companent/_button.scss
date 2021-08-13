@@ -1,0 +1,24 @@
+@mixin button {
+    width: 130px;
+    height: 45px;
+    background-color: $color-hover;
+    border: none;
+    outline: none;
+    border-radius: 8px; 
+        
+    }
+    @mixin button-big {
+
+        height: 56px;
+        width: 200px;
+        border-radius: 8px;
+        border-color: rgba(243, 243, 243, 0.2);
+        color: $color-hover;
+        padding: 10px 32px;
+        background-color: transparent;
+        margin-left: 53%;
+        font-size: 18px;
+        font-weight: 500;
+        outline: none;
+            
+    }

@@ -1,0 +1,214 @@
+.Tariffs{
+    width: 100%;
+    height: 840px;
+    background-color: #3B4046 ;
+    margin-top: 60px;
+    
+  
+    .Tariffs__h2{
+        color: $color-hover;
+        padding-top: 45px;
+        padding-left: 50px;
+        font-weight: 700;
+        font-size: 40px;
+        display: inline-block;
+    }
+    .Tariffs__info{
+
+      
+        cursor: pointer;
+        width: 92%;
+        height: 110px;
+        background-color:#3B4046 ;
+        border: 1px solid rgba(255,255,255,0.5);
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 40px;
+        display: flex;
+        .Tariffs__info-1{
+            width: 400px;
+            height: 100%;
+            display: flex;
+            .Tariffs__info-1__p{
+                color: $color-white;
+                line-height: 28px;
+                margin-left: 32px;
+                margin-right: 14px;
+                font-weight: 600;
+                font-size: 20px;
+                padding-top: 34px;
+            }
+
+        }
+        .Tariffs__info-2{
+            width: 300px;
+            height: 100%;
+            // display: flex;
+            .Tariffs__info-2__p{
+                font-weight: 500;
+                font-size: 15px;
+                color: #C9FFC7;
+                line-height: 24px;
+                padding-left: 70%;
+                margin-top: 5%;
+            }
+            .Tariffs__info-2__p1{
+                font-weight: 600;
+                font-size: 20px;
+                color: $color-white;
+                line-height: 24px;
+                margin-top: -4%;
+                padding-left: 70%;
+                display: inline-block;
+
+            }
+            .Tariffs__info-2__p2{
+                font-weight: 600;
+                font-size: 20px;
+                color: $color-white;
+                line-height: 24px;
+                margin-top: -4%;
+                display: inline-block;
+
+            }
+            .Tariffs__info-2__p3{
+                font-weight: 600;
+                color: $color-white;
+                line-height: 24px;
+                // display: inline-block;
+                font-size: 16px;
+                margin-top: -15px;
+                margin-left: 213px;
+                text-decoration: line-through;
+                color: silver;
+                
+
+            }
+
+        }
+        .Tariffs__info-3{
+            width: 300px;
+            height: 100%;
+            // border: 2px solid red;
+            margin: 0;
+            padding: 0;
+            .Tariffs__info-3__p{
+                font-weight: 500;
+                font-size: 15px;
+                color: #C9FFC7;
+                line-height: 24px;
+                padding-left: 50%;
+                margin-top: 5%;
+            }
+            .Tariffs__info-3__p1{
+                font-weight: 600;
+                font-size: 20px;
+                color: $color-white;
+                line-height: 24px;
+                margin-top: -2%;
+                padding-left: 50%;
+                display: inline-block;
+
+            }
+            .Tariffs__info-3__p2{
+                font-weight: 600;
+                font-size: 20px;
+                color: $color-white;
+                line-height: 24px;
+                margin-top: -2%;
+                display: inline-block;
+
+            }
+            .Tariffs__info-3__p3{
+                font-weight: 600;
+                color: $color-white;
+                line-height: 24px;
+                // display: inline-block;
+                font-size: 16px;
+                margin-top: -15px;
+                margin-left: 156px;
+                text-decoration: line-through;
+                color: silver;
+                
+
+            }
+
+        }
+
+
+       
+      .fa-car{
+        width: 72px;
+        height: 67px;
+        background-color: #3B4046;
+        color: white;
+        padding-top: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+        font-size: 30px;
+        border-radius: 7px;
+
+      }
+     
+
+
+        
+    }
+
+}
+.tabs {
+    display: flex;
+    margin-left: 71%;
+    margin-top: -58px;
+    
+    span{
+        padding-left: 5px;
+    }
+    
+  
+
+ .btn--tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 12px 15px;
+    min-width: 104px;
+    margin-left: 10px;
+    color: $color-white;
+
+
+    &:focus{
+
+        background-color:red;
+       
+        outline: none;
+        box-shadow: none;
+        span{
+            color: $color-hover;
+        }
+    }
+    &:hover{
+       color: $color-white;
+    }
+}
+}
+
+.tab_menus{
+    width: 292px;
+    margin-top: -60px;
+  border-radius: 10px;
+
+    div{
+        color: white;
+        border-radius: 10px;
+
+    }
+}
+.tab_menu .tab_menus div{
+    padding: 8px 47px !important;
+    padding-left: 30px;
+}
+

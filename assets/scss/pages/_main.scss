@@ -1,0 +1,177 @@
+.carousel {
+    background: #EEE;
+    border-radius: 15px;
+    background-image: url(https://velocity.az/front/img/vector/Vector-slider.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-color: #6c757d;
+
+    // filter:opacity(60%);
+    background-color: #22252C;
+    filter:drop-shadow(8px 8px 10px gray);
+
+  }
+  
+  .carousel-cell {
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px; 
+  }
+
+  .flickity-prev-next-button.previous {
+display: none;
+}
+.flickity-prev-next-button.next {
+    display: none;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-top: 15px;
+    background: rgba(201,255,199,0.2);
+    border-radius: 50%;
+    opacity: .7;
+    cursor: pointer;
+
+
+}
+.flickity-page-dots .dot.is-selected {
+   background-color: $color-hover;
+   width: 40px;
+   height: 40px;
+
+}
+.image-1{
+    background-image: url(https://velocity.az/frontend/web/uploads//images/slider/saytamerika.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    position: relative;
+    h1{
+        color:$color-white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+
+        margin-top: 70px;
+        margin-left: 89px;
+    }
+    p{
+        margin-top: 24px;
+        margin-bottom: 58px;
+        line-height: 28px;
+        color: $color-white;
+        margin-left: 89px;
+    }
+    button{
+
+        @include button;
+        width: 180px;
+        margin-left: 76px;
+        height:50px ;
+
+    }
+}
+.image-2{
+    background-image: url(https://velocity.az/frontend/web/uploads//images/slider/saytturki.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    position: relative;
+    h1{
+        color:$color-white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+
+        margin-top: 70px;
+        margin-left: 89px;
+    }
+    p{
+        margin-top: 24px;
+        margin-bottom: 58px;
+        line-height: 28px;
+        color: $color-white;
+        margin-left: 89px;
+    }
+    button{
+
+        @include button;
+        width: 180px;
+        margin-left: 76px;
+        height:50px ;
+
+    }
+}
+.image-3{
+    background-image: url(https://velocity.az/frontend/web/uploads//images/slider/cargovelo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    position: relative;
+    h1{
+        color:$color-white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+
+        margin-top: 70px;
+        margin-left: 89px;
+    }
+    p{
+        margin-top: 24px;
+        margin-bottom: 58px;
+        line-height: 28px;
+        color: $color-white;
+        margin-left: 89px;
+    }
+    button{
+
+        @include button;
+        width: 180px;
+        margin-left: 76px;
+        height:50px ;
+
+    }
+}
+.image-4{
+    background-image: url(https://velocity.az/frontend/web/uploads//images/slider/bv.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    position: relative;
+    h1{
+        color:$color-white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+
+        margin-top: 70px;
+        margin-left: 89px;
+    }
+    p{
+        margin-top: 24px;
+        margin-bottom: 58px;
+        line-height: 28px;
+        color: $color-white;
+        margin-left: 89px;
+    }
+    button{
+
+        @include button;
+        width: 180px;
+        margin-left: 76px;
+        height:50px ;
+
+    }
+}

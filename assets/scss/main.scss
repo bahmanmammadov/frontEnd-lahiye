@@ -1,0 +1,32 @@
+// Components
+
+@import "./base";
+@import "./mixins";
+@import "./variables";
+
+//helper
+@import"./companent/button";
+
+// Pages
+@import "./pages/navbar";
+@import "./pages/main";
+@import "./pages/section";
+@import "./pages/section-2";
+@import "./pages/tarifler";
+@import "./pages/beforefooter";
+@import "./pages/about-main";
+@import "./pages/footer";
+@import "./pages/elaqe";
+@import "./pages/xidmetler";
+@import "./pages/yenilik";
+@import "./pages/hesabim";
+@import "./pages/magaza";
+@import "./pages/icaze";
+
+
+//fonts
+@import "../scss/fonts/fonts";
+@import "./pages/font";
+@import "./icons/icon-font";
+
+

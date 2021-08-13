@@ -1,0 +1,36 @@
+.container{
+    .row{
+        .aboutpage-part{
+            .aboutpage-top{
+                background-color: $color-primary;
+                height: 570px;
+                color: white;
+                position: relative;
+                border-radius: 10px;
+                h2{
+                    padding: 35px;
+                    color: rgb(201,255,199);
+                    font-size: 30px;
+                }
+                .text-area{
+                    width: 690px;
+                    padding:  15px 0px 0px 40px;
+                    line-height: 33px;
+                    color: $color-text;
+                }
+            }
+            .aboutpage-bottom{
+                float: right;
+                margin-top: -188px;
+                border:none;
+                border-radius:10px;
+                img{
+                    border-radius: 8px;
+                }
+                
+
+            }
+            
+        }
+    }
+}

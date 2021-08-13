@@ -1,0 +1,19 @@
+.container1{
+    width: 900px;
+    margin: 0 auto;
+    background-color: $color-primary;
+    border-radius: 10px;
+    margin-top: 50px;
+    .bodyy{
+        .qaydalar1{
+            color: $color-text;
+            font-size: 18px;
+            margin-left: 5px;
+            margin-top: 10px;
+            display: inline-block;
+            h5{
+                margin-top: 25px;
+            }
+        }
+    }
+}
